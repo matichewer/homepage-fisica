@@ -22,7 +22,7 @@ def app():
     #LINK VIDEO:
     #   https://drive.google.com/file/d/1HGXU91fEMXKLz2u2nuIkRMgstaB32laE/view?usp=drive_link
 
-    video_url='https://drive.google.com/file/d/1HGXU91fEMXKLz2u2nuIkRMgstaB32laE/preview'
+    video_url='https://drive.google.com/file/d/1_pEC_OYsoi90BOTCzkWUeKNimO8ay_I-/preview'
 
     # Insertar el video usando HTML
     st.markdown(f"""

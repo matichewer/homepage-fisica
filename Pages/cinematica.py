@@ -26,9 +26,9 @@ fran_triple_tiro = "https://drive.google.com/file/d/1K0tGucwHLtEj-cRjituc6xxbDDB
 fran_triple_id ='1K0tGucwHLtEj-cRjituc6xxbDDBhvVPP'
 fran_triple_id_url = 'https://drive.google.com/file/d/1K0tGucwHLtEj-cRjituc6xxbDDBhvVPP/preview'
 
-fran_tenis_tiro = "https://drive.google.com/file/d/1BK67GKfpYiiNmUO30OHVlHCapsXdA1PG/view?usp=drive_link"
-fran_tenis_id='1BK67GKfpYiiNmUO30OHVlHCapsXdA1PG'
-fran_tenis_url='https://drive.google.com/file/d/1BK67GKfpYiiNmUO30OHVlHCapsXdA1PG/preview'
+fran_tenis_tiro = "https://drive.google.com/file/d/17StJrea7ydMeB280lK0ZrCWw7Vfl-6w8/view?usp=sharing"
+fran_tenis_id='17StJrea7ydMeB280lK0ZrCWw7Vfl-6w8'
+fran_tenis_url='https://drive.google.com/file/d/17StJrea7ydMeB280lK0ZrCWw7Vfl-6w8/preview'
 def app():
     st.markdown("# **CINEMATICA**")
 
@@ -72,10 +72,10 @@ def app():
     """
     st.latex(formulas)
     # ID del video en Google Drive
-    video_id = '1yRrGMfC26jI2qizgLljeAp7saDFM4Atu'
+    video_id = '1t6dzRm44syZZ8PSQqG2OK0KDNAIkGoCl'
 
     # Enlace embebido de Google Drive tiro del chipi
-    video_url = 'https://drive.google.com/file/d/1hTnpxDve7oa7q2YXrx143-beURJl0u_Z/preview'
+    video_url = 'https://drive.google.com/file/d/1t6dzRm44syZZ8PSQqG2OK0KDNAIkGoCl/preview'
 
     # Enlace embebido del rebote contra el tablero
     video_rebote = 'https://drive.google.com/file/d/1QfBcWnunSSEiqFLoJtV2ViZKseZkzkwv/preview'
