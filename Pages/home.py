@@ -24,6 +24,7 @@ with st.sidebar:
         }
     )
 
+
 if app == "Intro":
     intro.app()
 elif app == "Cinematica":

@@ -79,3 +79,20 @@ def app():
         "https://docs.google.com/presentation/d/e/2PACX-1vRI6PJMC0KnwygrjhoSusvv7sZmyfdZCHRS9JHUwln4XMK-5ePWmV8gY4dd24gM9Q/embed?start=false&loop=false&delayms=3000",
         height=600, width=800)
 
+    components.html(
+        """
+        <script>
+        const parent = window.parent.document;
+        if (!parent.getElementById('easter-egg')) {
+            const a = parent.createElement('a');
+            a.id = 'easter-egg';
+            a.href = 'https://drive.google.com/drive/folders/10k0mq5MHVYjZHI3DRSTwCR8Q84dMaQrN?usp=drive_link';
+            a.target = '_blank';
+            a.style.cssText = 'display:block;width:100%;height:60px;opacity:0;';
+            const container = parent.querySelector('.main .block-container');
+            if (container) container.appendChild(a);
+        }
+        </script>
+        """,
+        height=0
+    )
